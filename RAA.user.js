@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        RAA
 // @namespace    https://worldofwarships.com.cn/
-// @version      0.2
+// @version      0.3
 // @description  战绩连续查询脚本
 // @author       Allophones
 // @match        https://worldofwarships.com.cn/index.php
