@@ -52,7 +52,7 @@
         $.ajax(settings).done(function (response) {
             let tbody = document.getElementsByTagName("tbody")[0];
             var data = $(response).find("tr")[1];
-            if($(data).find("td")[3].innerText == "0"){
+            if($(data).find("td")[3].innerText == "0"||$(data).find("td")[3].innerText == ""){
                 console.log($(data).find("td")[2].innerText + "    abort!");
             }else{
                 
